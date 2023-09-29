@@ -1,0 +1,21 @@
+*{padding: 0px;
+    margin: 0px;
+}
+
+
+.homepage{
+    padding: 15px;
+    height: 100%;
+    background-color:rgba(106, 0, 255, 0.126);
+    
+    .topcontent{
+        display: flex;
+        flex-direction: column;
+    }
+    .darkmode{
+        display: flex;
+        flex-direction:column-reverse;
+        justify-content: left;
+        padding-top: 10px;
+
+    }
