@@ -24,9 +24,19 @@ body{
 }
 
 .socialmediacontent{
-    padding-bottom: 35px;
-    align-content: flex-start;
 
+    align-content: first baseline;
+    display: flex;
+    justify-content: flex-start;
+    padding-top: 20px;
+    padding-left: 130px;
+    
+
+
+}
+#total followers{
+align-items: center;
+font-size: 10px;
 
 }
 #darkmode {
@@ -34,6 +44,7 @@ body{
     flex-direction: row;
     align-items: center;
     gap: 10px;
+    justify-content: center;
     
 
 
@@ -69,87 +80,32 @@ body{
         display: flex;
         justify-content: center;
         gap: 20px;
-        padding: 10px;
-        background-color: rgba(14, 14, 88, 0.372);
-        width: 200px; 
-        border-radius: 20px;
+        /* padding: 10px; */
+        /* background-color: rgba(14, 14, 88, 0.372); */
+        /* width: 1000px; */
+        /* border-radius: 20px; */
         flex-wrap: wrap;
+    
         
 
     
     }
-    .card-five{
+    #second-card{
         display: flex;
-        flex-direction: column;
         justify-content: center;
-        gap: 20px;
-        color: white;
-        background-color: brown;
+        flex-direction: column;
+    color: white;
+
+    
         width: 16vw;
+        background-color: green;
+        /* padding: 20px; */
+        /* border-radius: 20px; */
+        font-size: 10px;
+        padding: 20px;
+
     }
-    .card-six{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        gap: 20px;
-        color: white;
-        background-color: brown;
-        width: 16vw;
-    }
-    .card-seven{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        gap: 20px;
-        color: white;
-        background-color: brown;
-        width: 16vw;
-    }
-    .card-eight{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        gap: 20px;
-        color: white;
-        background-color: brown;
-        width: 16vw;
-    }
-    .card-nine{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        gap: 20px;
-        color: white;
-        background-color: brown;
-        width: 16vw;;
-    }
-    .card-ten{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        gap: 20px;
-        color: white;
-        background-color: brown;
-        width: 16vw;
-    }
-    .card-eleven{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        gap: 20px;
-        color: white;
-        background-color: brown;
-        width: 16vw;
-    }
-    .card-twelve{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        gap: 20px;
-        color: white;
-        background-color: brown;
-        width: 16vw;
-    }
+    
     .pageview{
         display: flex;
         justify-content: space-between;
@@ -170,5 +126,13 @@ body{
     }
     #percentagedown{
         font: 1em sans-serif;ont-size: 10px;
-        \
+    
+    }
+    .overviewtoday{
+        display: flex;
+        justify-content: flex-start;
+        color: white;
+        flex-direction: row;
+        align-items: first baseline;
+        padding-left: 130px;
     }
